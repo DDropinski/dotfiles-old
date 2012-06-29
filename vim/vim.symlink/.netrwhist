@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/ddropinski/ds-jdk7-build/ds/build'
+let g:netrw_dirhist_2='/home/ddropinski/ds-jdk7-build/ds/tests'
+let g:netrw_dirhist_3='/home/ddropinski/ds-jdk7-build/ds/tests/ext'
+let g:netrw_dirhist_4='/Users/DDropinski/ElementsOfComputingSystems/tecs-software-suite-2.5/myChips'
+let g:netrw_dirhist_5='/Users/DDropinski/ElementsOfComputingSystems/Projects/00'
+let g:netrw_dirhist_6='/Users/DDropinski/Serveservation/serveservation/serveservation'
+let g:netrw_dirhist_7='/Users/DDropinski/Serveservation/serveservation/servers'
+let g:netrw_dirhist_8='/Users/DDropinski/.vim/colors'
+let g:netrw_dirhist_9='/Users/DDropinski/.ssh'

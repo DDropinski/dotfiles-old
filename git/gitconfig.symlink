@@ -1,0 +1,13 @@
+[user]
+        name = David Dropinski
+        email = DropinskiD@gmail.com
+
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+[core]
+        editor = vim
+[merge]
+        tool = vimdiff
