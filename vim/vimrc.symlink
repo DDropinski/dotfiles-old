@@ -11,6 +11,7 @@ set t_Co=256
 let g:molokai_original = 1
 colorscheme molokai
 filetype on
+filetype plugin on
 map <F5> :NERDTreeToggle<CR>
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-j> :wincmd j<CR>
