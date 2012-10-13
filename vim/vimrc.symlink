@@ -43,18 +43,17 @@ augroup END
 " End restore cursor
 
 " Required for Vundle
-filetype plugin indent on
+"filetype plugin indent on
 
 " Vundle
-set rtp+=~./vimrc
-set rtp+=~/dotfiles/vim/vim.symlink/bundle/vundle/
-call vundle#rc()
+"set rtp+=~/dotfiles/vim/vim.symlink/bundle/vundle/
+"call vundle#rc()
 
 " Let Vundle manage Vundle
 " Required!!
-Bundle 'gmarik/vundle'
+"Bundle 'gmarik/vundle'
 
-" My Bundles Here:
+" My Bundles Here
 "
 " Link to the github repos
 
