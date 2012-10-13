@@ -18,6 +18,8 @@ nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 
+call pathogen#infect()
+
 " Restore cursor to last file position
   " Tell vim to remember certain things when we exit
   "  '10  :  marks will be remembered for up to 10 previously edited files
@@ -39,3 +41,35 @@ augroup resCur
   autocmd BufWinEnter * call ResCur()
 augroup END
 " End restore cursor
+
+" Required for Vundle
+filetype plugin indent on
+
+" Vundle
+set rtp+=~./vimrc
+set rtp+=~/dotfiles/vim/vim.symlink/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+" Required!!
+Bundle 'gmarik/vundle'
+
+" My Bundles Here:
+"
+" Link to the github repos
+
+
+
+" vim-script repos go here
+
+
+" Non github repos here
+
+
+"Help guide for vundle
+"  :BundleList          - list condigured bundles
+"  :BundleInstall(!)    - install(update) bundles
+"  :BundleSearch(!) foo - search(or refresh cache first) for foo
+"  :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+"
+"  see :h vundle for more details or wiki for FAR
