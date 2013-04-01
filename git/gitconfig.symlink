@@ -1,6 +1,6 @@
 [user]
-        name = David Dropinski
-        email = DropinskiD@gmail.com
+	name = David Dropinski
+	email = DropinskiD@gmail.com
 
 [color]
         branch = auto
@@ -9,5 +9,14 @@
         status = auto
 [core]
         editor = vim
+	excludesfile = /Users/DDropinski/.gitignore_global
 [merge]
         tool = vimdiff
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[credential]
+	helper = osxkeychain
